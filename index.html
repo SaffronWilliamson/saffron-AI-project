@@ -7,43 +7,46 @@
     <title>Saffron AI Project</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Were all stars to disappear or die,
-        <br />
-        I should learn to look at an empty sky
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button"/>
+        </form>
+        <div class="poem">
+          Were all stars to disappear or die,
+          <br />
+          I should learn to look at an empty sky
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/SaffronWilliamson" target="_blank"
-        >Saffron Williamosn</a
-      >
-      and is ope-sourced on
-      <a
-        href="https://github.com/SaffronWilliamson/saffron-AI-project"
-        target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://saffron-ai-project.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/SaffronWilliamson" target="_blank"
+          >Saffron Williamosn</a
+        >
+        and is ope-sourced on
+        <a
+          href="https://github.com/SaffronWilliamson/saffron-AI-project"
+          target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://saffron-ai-project.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
