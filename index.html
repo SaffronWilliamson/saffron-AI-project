@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Saffron AI Project</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>AI Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the poem..."
@@ -21,13 +22,9 @@
             autocomplete="off"
             class="instructions"
           />
-          <input type="submit" class="submit-button"/>
+          <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Were all stars to disappear or die,
-          <br />
-          I should learn to look at an empty sky
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
